@@ -19,7 +19,7 @@ for (int i = a; i <= b; i++)
     
 }
 printf("\n");
-printf("The palindromes are: ");
+printf("The Palindromes are: ");
 for (int i = a; i <= b; i++)
 {
     if (isPalindrome(i)==1)
