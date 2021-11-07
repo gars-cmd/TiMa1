@@ -8,6 +8,13 @@ int a = 0;
 int b = 0;
 scanf("%d" , &a);
 scanf("%d" , &b);
+if (a>b)
+{
+    int temp = a;
+    a=b;
+    b=temp;
+}
+
 
 printf("The Armstrong numbers are:");
 for (int i = a; i <= b; i++)
