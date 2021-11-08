@@ -1,3 +1,6 @@
+OBJ_MAIN=main.o
+OBJ_LIB=NumClass.o
+
 all: loopd recursived loops recursives  mains maindloop maindrec 
 
 basicClassification.o : basicClassification.c NumClass.h
