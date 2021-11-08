@@ -3,7 +3,6 @@ all: loops recursives recursived loopd mains maindrec maindloop
 loops: loops1 loops2 basicClassification.o
 	ar -rcs -o libclassloops.a basicClassification.o advancedClassificationLoop.o
 	
-
 loops1: basicClassification.c basicClassification.h
 	gcc -c basicClassification.c
 
