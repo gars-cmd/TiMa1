@@ -2,7 +2,7 @@
 #include "NumClass.h"
 
 
-int main(int argc, char const *argv[])
+int main()
 {
 int a = 0;
 int b = 0;
